@@ -1,0 +1,74 @@
+/* Reset basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #3a3b3c;
+    color: #ffffff;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+}
+
+header p {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+/* Main Container */
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Card Styling */
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Titles */
+.card h2 {
+    color: #3a3b3c;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+/* Project Styling */
+.project h3 {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+    color: #007acc;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #3a3b3c;
+    color: #ffffff;
+    font-size: 0.9em;
+    border-radius: 8px;
+    margin-top: 20px;
+}
